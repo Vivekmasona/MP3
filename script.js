@@ -4,7 +4,7 @@ const search = document.getElementById("search");
 
 function createMP3frame(url) {
   const mp3HTML = `
-    <iframe src="https://vivekfy.onrender.com/mp3?url=${url}" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none"></iframe>
+    <iframe src="https://mp3api.ytjar.info/?id=${url}" width="100%" height="100%" allowtransparency="true" scrolling="no" style="border:none"></iframe>
   `;
 
   main.innerHTML = mp3HTML;
